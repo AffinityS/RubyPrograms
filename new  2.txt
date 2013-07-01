@@ -1,0 +1,18 @@
+
+def say(nsg)
+puts "-- #{msg} --"
+
+end
+
+say "What's the first number?"
+num1 = gets.chomp
+
+say "What's the second number?"
+num2 = gets.chomp
+
+say "What would you like to do? 1) add 2) subtract 3) multiply 4) divide
+operation = gets.chomp
+
+if operation = "1"
+
+result = num1
